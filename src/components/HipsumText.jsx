@@ -43,6 +43,7 @@ const HipsumText = () => {
           min={1}
           max={8}
           step={1}
+          id="amount"
           className="lorem-input"
         />
         <button className="btn">generate</button>

@@ -18,6 +18,7 @@ const reducer = (state, action) => {
     const amount = parseInt(state.count);
     return { ...state, text: data.slice(0, amount) };
   }
+  throw new Error(`No matching "${action.type}" action-type`);
 };
 
 const HipsumText = () => {

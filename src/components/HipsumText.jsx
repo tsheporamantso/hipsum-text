@@ -38,7 +38,7 @@ const HipsumText = () => {
           type="number"
           value={state.count}
           onChange={(e) =>
-            dispatch({ type: SET_COUNT, payload: parseInt(e.target.value) })
+            dispatch({ type: SET_COUNT, payload: parseInt(e.target.value, 10) })
           }
           min={1}
           max={8}

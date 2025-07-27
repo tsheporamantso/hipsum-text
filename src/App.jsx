@@ -1,5 +1,7 @@
+import HipsumText from "./components/HipsumText";
+
 function App() {
-  return <></>;
+  return <HipsumText />;
 }
 
 export default App;
